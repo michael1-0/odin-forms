@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Forms | Odin</title>
+</head>
+<body>
+    <div class="side">
+        <div class="title-container">
+            <img src="./assets/images/odin-lined.png" alt="odin logo">
+            <div>ODIN</div>
+        </div>
+        <div class="footer-text">Photo by <a href="https://www.instagram.com/bbbbonggg/">Sera</a></div>
+    </div>
+    <div class="main-container">
+        <div class="header">
+            <div>
+                <P>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</P>
+                <p>You <i>know</i> you want to.</p>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Let's do this!</h2>
+            <form id="formation" action="#" method="post">
+                <div class="flex-items">
+                    <label for="first-name">FIRST NAME</label><br> 
+                    <input type="text" id="first-name" name="firstName"><br>
+                </div>
+
+                <div class="flex-items">
+                    <label for="last-name">LAST NAME</label><br>
+                    <input type="text" id="last-name" name="lastName"><br>
+                </div>
+                <div class="flex-items">
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" id="email" name="email"><br>
+                </div>
+                <div class="flex-items">
+                    <label for="phone-number">PHONE NUMBER</label><br>
+                    <input type="tel" id="phone-number" name="phoneNumber"><br>
+                </div>
+                <div class="flex-items">
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" id="password" name="password" required><br>
+                    <div class="passwords-match">* Passwords do not match</div>
+                </div>
+                <div class="flex-items">
+                    <label for="confirm-password">CONFIRM PASSWORD</label><br>
+                    <input type="password" id="confirm-password" name="confirmPassword" required><br>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <div>
+                <button type="submit" form="formation">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
