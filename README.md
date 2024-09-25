@@ -1,1 +1,2 @@
 # odin-forms
+This is a project from The Odin Project course that aims to establish CSS and HTML skills even further by practicing with forms elements and CSS positionings; and also pseudo-classes and pseudo-elements.
